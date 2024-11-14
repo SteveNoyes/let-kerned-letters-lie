@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    /* General Reset */
+    body, table, td, a { -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+    table, td { mso-table-lspace: 0pt; mso-table-rspace: 0pt; }
+    img { -ms-interpolation-mode: bicubic; }
+
+    /* Basic Styles */
+    body { margin: 0; padding: 0; width: 100% !important; }
+    table { border-collapse: collapse !important; }
+
+    /* Light Mode Styles */
+    body, .email-container { background-color: #f2f2f2; }
+    .email-content { background-color: #ffffff; color: #333333; }
+    .header, .footer { background-color: #0073e6; color: #ffffff; }
+    .footer-text { color: #666666; }
+    .link { color: #0073e6; }
+
+    /* Responsive Styles */
+    @media only screen and (max-width: 600px) {
+      .responsive-table { width: 100% !important; }
+      .stack-column { display: block !important; width: 100% !important; }
+      .hide-mobile { display: none !important; }
+    }
+  </style>
+</head>
+<body style="margin: 0; padding: 0; background-color: #f2f2f2;">
+  <!-- Container -->
+  <table width="100%" bgcolor="#f2f2f2" cellpadding="0" cellspacing="0" border="0" class="email-container">
+    <tr>
+      <td align="center" style="padding: 20px 10px;">
+        <!-- Email Wrapper -->
+        <table width="600" cellpadding="0" cellspacing="0" border="0" class="responsive-table email-content">
+          <!-- Header -->
+          <tr>
+            <td align="center" style="padding: 20px; font-family: Arial, sans-serif;" class="header">
+              <h1 style="margin: 0; font-size: 24px;">Our Latest Offerings!</h1>
+            </td>
+          </tr>
+
+          <!-- Body Text -->
+          <tr>
+            <td style="padding: 20px; font-family: Arial, sans-serif; font-size: 16px;">
+              <p style="margin: 0;">
+                Discover our latest products! Here’s a curated selection of what’s new:
+              </p>
+            </td>
+          </tr>
+
+          <!-- 3x2 Grid Section -->
+          <tr>
+            <td style="padding: 10px;">
+              <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                <!-- Grid Row 1 -->
+                <tr>
+                  <td class="stack-column" style="padding: 10px; font-family: Arial, sans-serif; font-size: 14px;" align="center" width="33%">
+                    <img src="https://via.placeholder.com/150" alt="Image 1" width="100%" style="max-width: 150px; display: block;">
+                    <p style="margin-top: 5px;">Item 1</p>
+                  </td>
+                  <td class="stack-column" style="padding: 10px; font-family: Arial, sans-serif; font-size: 14px;" align="center" width="33%">
+                    <img src="https://via.placeholder.com/150" alt="Image 2" width="100%" style="max-width: 150px; display: block;">
+                    <p style="margin-top: 5px;">Item 2</p>
+                  </td>
+                  <td class="stack-column" style="padding: 10px; font-family: Arial, sans-serif; font-size: 14px;" align="center" width="33%">
+                    <img src="https://via.placeholder.com/150" alt="Image 3" width="100%" style="max-width: 150px; display: block;">
+                    <p style="margin-top: 5px;">Item 3</p>
+                  </td>
+                </tr>
+                <!-- Grid Row 2 -->
+                <tr>
+                  <td class="stack-column" style="padding: 10px; font-family: Arial, sans-serif; font-size: 14px;" align="center" width="33%">
+                    <img src="https://via.placeholder.com/150" alt="Image 4" width="100%" style="max-width: 150px; display: block;">
+                    <p style="margin-top: 5px;">Item 4</p>
+                  </td>
+                  <td class="stack-column" style="padding: 10px; font-family: Arial, sans-serif; font-size: 14px;" align="center" width="33%">
+                    <img src="https://via.placeholder.com/150" alt="Image 5" width="100%" style="max-width: 150px; display: block;">
+                    <p style="margin-top: 5px;">Item 5</p>
+                  </td>
+                  <td class="stack-column" style="padding: 10px; font-family: Arial, sans-serif; font-size: 14px;" align="center" width="33%">
+                    <img src="https://via.placeholder.com/150" alt="Image 6" width="100%" style="max-width: 150px; display: block;">
+                    <p style="margin-top: 5px;">Item 6</p>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+
+          <!-- Footer -->
+          <tr>
+            <td align="center" style="padding: 20px; font-family: Arial, sans-serif; font-size: 12px;" class="footer">
+              <p class="footer-text" style="margin: 0;">&copy; 2024 Our Company. All rights reserved.</p>
+              <p style="margin: 0;"><a href="#" class="link" style="text-decoration: none;">Unsubscribe</a></p>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+</body>
+</html>
